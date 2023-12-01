@@ -1,8 +1,12 @@
 package year_2023
 
+import utils.println
 import utils.readFile
 
-
+fun main() {
+    println("Trebuchet?!")
+    elvesMixedUpNumbers("src/main/kotlin/year_2023/day01.txt").println()
+}
 fun elvesMixedUpNumbers(filename: String): Int {
     val rightNumbers = mutableListOf<Int>()
     var lines: MutableList<String> = readFile(filename)
