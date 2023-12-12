@@ -98,7 +98,7 @@ private fun parseNodes(list: List<String>): MutableMap<String, Node> {
 }
 
 private fun parseInstructions(str: String): Sequence<Instruction> {
-    var list = mutableListOf<Instruction>()
+    val list = mutableListOf<Instruction>()
     str.forEach {
         when (it) {
             'L' -> list.add(Instruction.LEFT)

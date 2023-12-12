@@ -25,10 +25,9 @@ fun main() {
     lines.println()
     parse2(lines).println()
     "AJJA2".findStrongestChar().println()
-    var hand = Hand("8J9KJ", Power.ONE_PAIR)
+    val hand = Hand("8J9KJ", Power.ONE_PAIR)
     hand.transformCardWithJoker()
     hand.println()
-//    "KTJJT".findPowerfulCharInList().println()
 }
 
 
