@@ -11,8 +11,7 @@ fun main() {
 }
 
 private enum class Instruction {
-    LEFT,
-    RIGHT
+    LEFT, RIGHT
 }
 
 private data class Node(val source: String, val left: String, val right: String)
